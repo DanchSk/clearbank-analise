@@ -65,7 +65,7 @@ def main() -> int:
     if not JSON_PATH.exists():
         print(
             f"{JSON_PATH.name} não encontrado. "
-            "Execute o notebook (ou clearbank.py) antes de comparar."
+            "Execute o notebook antes de comparar."
         )
         return 1
 

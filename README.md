@@ -4,9 +4,9 @@ Notebook Python que lê e valida `transacoes.csv`, calcula métricas mensais, si
 
 ## Como executar
 
-1. Abra `desafio-final.ipynb` no Google Colab ou Jupyter (Python 3.10+).
-2. Garanta que `transacoes.csv` está na mesma pasta do notebook.
-3. Execute todas as células em ordem (Run All / Runtime → Run all).
+1. Abra `desafio-final.ipynb` no [Google Colab](https://colab.research.google.com/github/DanchSk/clearbank-analise/blob/main/desafio-final.ipynb) ou no Jupyter (Python 3.10+).
+2. Execute todas as células em ordem (no Colab: Ambiente de execução → Executar tudo).
+3. No Colab o notebook abre sozinho, sem os outros arquivos do repositório. A primeira célula cria `transacoes.csv` se ele ainda não estiver na sessão. Se o arquivo já existir na pasta, ele é reutilizado.
 
 Dependências opcionais (RO1/RO2):
 
